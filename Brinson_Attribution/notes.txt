@@ -1,0 +1,4 @@
+brison归因文件夹注意事项：
+1. get_data.py    MultiPeriod.py   和  data文件夹  必须在同一文件夹下
+2.  data文件夹里的子文件夹不要改名，归因结果保存在ret_result文件夹下
+3. 运行MultiPeriod.py： 1）更改自定义变量end_date,最后一个归因区间的结束日期（若之前有过基金数据的话，只能填更新的日期）  2）更改ret_result文件夹里的wcode.xlsx(该文件里是需要归因地基金代码和对应的基准代码)
